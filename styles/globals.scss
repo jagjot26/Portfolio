@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  transition: background-color 300ms ease;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  min-height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+html,
+div#__next {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.layout {
+  max-width: 100%;
+
+  @screen md {
+    max-width: 90%;
+  }
+
+  @screen lg {
+    max-width: 85%;
+  }
+
+  @screen 2xl {
+    max-width: 80%;
+  }
+}
+
+.banner {
+  min-height: 65vh;
+
+  @screen lg {
+    min-height: 75vh;
+  }
+}
