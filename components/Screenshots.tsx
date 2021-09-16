@@ -52,7 +52,7 @@ export default Screenshots;
 
 const ScreenshotImage = styled.img`
   height: 470px;
-  width: 302px;
+  width: 290px;
   border-radius: 0.3rem;
 `;
 
