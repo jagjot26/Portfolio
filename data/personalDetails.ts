@@ -16,6 +16,6 @@ export const personal: Personal = {
       I try to emphasise on using best practices to develop high-quality software that meets project requirements, budget, and schedule.
     `,
   resume:
-    "https://drive.google.com/file/d/1V5umW8CKY-1aegh_NO_ZBCC9heYfI-o3/view?usp=sharing",
+    "https://drive.google.com/file/d/1xpOLaTWRF362jYBLU7T-R9DaUfnvkkBS/view?usp=sharing",
   available: true,
 };

@@ -15,7 +15,14 @@ function AboutBottomSheet(props: AboutBottomSheetProps): React.ReactElement {
     <Fragment>
       <span>{personal.about}</span>
       <p className="mt-4">
-        <HeaderText classes="px-2" text="Resume" bgColor="bg-purple-100" />
+        <a
+          href={personal.resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="outline-none"
+        >
+          <HeaderText classes="px-2" text="Resume" bgColor="bg-purple-100" />
+        </a>
       </p>
     </Fragment>
   );
