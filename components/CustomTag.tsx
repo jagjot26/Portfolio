@@ -10,7 +10,7 @@ function CustomTag(props: CustomTagProps): React.ReactElement {
     <div
       style={{
         backgroundColor: `${props.color}`,
-        fontSize: ".65rem",
+        fontSize: ".85rem",
         padding: ".2rem .3rem",
         borderRadius: ".2rem",
       }}

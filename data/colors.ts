@@ -3,7 +3,7 @@ export const Colors: Record<string, string> = {
   go: "#fff",
   python: "#4B8BBE",
   typescript: "#234A84",
-  javascript: "#F7DF1E",
+  javascript: "#326CE5",
   dart: "#00ADD8",
 
   // Frontend

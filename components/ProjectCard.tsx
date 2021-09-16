@@ -21,7 +21,7 @@ function ProjectCard(props: ProjectCardProps): React.ReactElement {
     <CardDiv
       onClick={props.onClick}
       dark={resolvedTheme === "dark" ? true : false}
-      className="shadow-md dark:text-white cursor-pointer rounded-md border-gray-400 dark:border-gray-700"
+      className="shadow-md dark:text-white cursor-pointer rounded-md dark:bg-gray-800"
     >
       <BannerImage src={banner} alt="" />
       <div className="p-3">

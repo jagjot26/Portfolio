@@ -15,7 +15,7 @@ function Projects(props: ProjectsProps): React.ReactElement {
   return (
     <div className="ml-6 md:ml-8 lg:ml-14  dark:text-white mr-5 md:mr-8 lg:mr-14">
       <TitleText>Projects</TitleText>
-      <DescriptionText>A list of projects I've worked on</DescriptionText>
+      <DescriptionText>{"A list of projects I've worked on"}</DescriptionText>
       <GridContainer>
         {projects.map((project, id) => (
           <ProjectCard

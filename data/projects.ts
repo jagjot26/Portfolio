@@ -1,6 +1,6 @@
 import { Stack } from "./stack";
 
-type Maybe<T> = T | null;
+export type Maybe<T> = T | null;
 type Tuple<T> = [T, T];
 
 export type Deployment = {
@@ -39,7 +39,13 @@ export const projects: Project[] = [
       Stack.node,
       Stack.mongo,
     ],
-    screenshots: [],
+    screenshots: [
+      "https://user-images.githubusercontent.com/51400182/133553192-d724888e-4c20-45ae-9af3-de0ab0810e51.png",
+      "https://user-images.githubusercontent.com/51400182/133553200-b48f6284-7716-4155-babb-b673cb255b51.png",
+      "https://user-images.githubusercontent.com/51400182/133553207-07ef4814-30aa-4269-b5ca-553a99050289.png",
+      "https://user-images.githubusercontent.com/51400182/133553229-783770d8-f3d4-4184-be23-39e71f17c755.png",
+      "https://user-images.githubusercontent.com/51400182/133553238-c73a35c5-e776-476c-924f-70b9c61bb711.png",
+    ],
 
     deployment: {
       web: "https://faeshare.herokuapp.com",

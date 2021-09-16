@@ -7,6 +7,7 @@ import BaseBottomSheet, { BaseBottomSheetProps } from "./Base";
 import { personal, Personal } from "../../data/personalDetails";
 import { Project } from "../../data/projects";
 import Screenshots from "../Screenshots";
+import Deployment from "../Deployment";
 
 interface ProjectBottomSheetProps extends BaseBottomSheetProps {
   activeProject: Project;
@@ -40,7 +41,11 @@ function ProjectBottomSheet(
     <BaseBottomSheet open={open} onDismiss={onDismiss}>
       <SubHeader title={title} description={description} />
       <StackList stackList={stack} />
-      <Screenshots screenshots={screenshots} />
+      <Deployment deployment={deployment} repo={repository} />
+      <Screenshots
+        screenshots={screenshots}
+        wide={title === "Faeshare" ? true : false}
+      />
     </BaseBottomSheet>
   );
 }
