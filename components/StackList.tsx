@@ -14,7 +14,7 @@ function StackList(props: StackListProps): React.ReactElement {
         smallText={true}
         title="Skills"
         description={
-          <div className="flex space-x-1.5">
+          <div className="flex space-x-1.5 flex-wrap">
             {!props.stackList
               ? WorkStack.map((stack) => {
                   const { color, value } = StackInfo[stack];

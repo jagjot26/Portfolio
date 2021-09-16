@@ -14,7 +14,7 @@ function ThemeIconDiv() {
     setTheme("dark");
   };
   return (
-    <div className="cursor-pointer w-full pt-5 md:pt-10 md:pr-20 lg:pr-24 ">
+    <div className="cursor-pointer w-full pt-5 md:pt-10 pr-5 md:pr-20 lg:pr-24 ">
       {resolvedTheme === "dark" && (
         <MoonIcon
           className="hover:opacity-60 ml-auto text-3xl lg:text-4xl text-white"
