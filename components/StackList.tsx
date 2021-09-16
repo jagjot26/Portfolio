@@ -14,7 +14,7 @@ function StackList(): React.ReactElement {
             {WorkStack.map((stack) => {
               const { color, value } = StackInfo[stack];
               return (
-                <div className="pb-1 text-white text-xs">
+                <div key={value} className="pb-1 text-white text-xs">
                   <CustomTag color={color} value={value} />
                 </div>
               );

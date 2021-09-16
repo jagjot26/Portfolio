@@ -5,6 +5,7 @@
 * {
   scroll-behavior: smooth;
   transition: background-color 300ms ease;
+  scrollbar-width: none;
 }
 
 html,
@@ -56,9 +57,9 @@ a:active {
 }
 
 .banner {
-  min-height: 65vh;
+  min-height: 70vh;
 
   @screen lg {
-    min-height: 75vh;
+    min-height: 80vh;
   }
 }
