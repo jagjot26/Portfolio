@@ -27,7 +27,7 @@ export const projects: Project[] = [
     id: 0,
     title: "Faeshare",
     banner:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fpeapods%2Fbanner.png?alt=media&token=20726ab4-332d-4cd7-afb1-2d1764deaf6b",
+      "https://user-images.githubusercontent.com/51400182/133652867-a8445c19-6e5a-4770-9264-351a55d06ed0.png",
     description:
       "Full stack social media web app made with the help of Next.js, Socket.io and TailwindCSS.",
     repository: "https://github.com/jagjot26/faeshare",
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Alorine",
     banner:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fproximity%2Fbanner.jpeg?alt=media&token=4d1d49e3-20ac-491e-8947-57a4e8520cc6",
+      "https://user-images.githubusercontent.com/51400182/133651921-5402933d-8c8f-4b21-820d-ac2fd80ec51c.png",
     description:
       "A social blogging platform that offers you to read and write 180 words blogs. The user-authored blogs are baked with authenticity and relevancy. Give an end to the habit of skimming because of too long paragraphs and enjoy reading simple and to the point content.",
     repository: null,
@@ -79,7 +79,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Flashchat",
     banner:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fproximity%2Fbanner.jpeg?alt=media&token=4d1d49e3-20ac-491e-8947-57a4e8520cc6",
+      "https://user-images.githubusercontent.com/51400182/133652872-ded8f375-dd45-4f06-9de8-746972a29d40.png",
     description:
       "FlashChat is a simple, one-to-one texting application that allows users to communicate free of cost (provided that they have data conn.) without any limitations. Users can send and receive messages, edit their profile pictures, change their bios, and do a bunch of other stuff.",
     repository: "https://github.com/jagjot26/FlashChat",
@@ -102,8 +102,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Tasks",
     banner:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fvelvet%2Fbanner.png?alt=media&token=1c8fef8b-397e-434e-8ae8-48b6a5bc2ed2",
-    website: "https://boom.london",
+      "https://user-images.githubusercontent.com/51400182/133652884-739babdc-ae69-4e58-b4b0-aacc41455bbc.png",
     description:
       "Tasks is a simple tasks' list app that allows managers and the workers to do their jobs efficiently. Managers assign tasks to the workers on their phones. Workers can check tasks off the list once they have done the task. Changes will also be reflected on the manager's list of that worker's tasks.",
     repository: "https://github.com/Jagjot26/Tasks",
@@ -122,7 +121,7 @@ export const projects: Project[] = [
     id: 4,
     title: "IfAlz",
     banner:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fvelvet%2Fbanner.png?alt=media&token=1c8fef8b-397e-434e-8ae8-48b6a5bc2ed2",
+      "https://user-images.githubusercontent.com/51400182/133651899-125e1d9e-301e-4b33-9442-80ac89d40a2f.png",
 
     description:
       "IfAlz helps people to check if they have Alzheimer's by playing some games and answering some quizzes. Users can choose to either play the games individually or, take the full test which comprises of all the games one after another, and gives you some final scores based on your results.",
