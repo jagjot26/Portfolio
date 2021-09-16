@@ -14,14 +14,8 @@ function SubHeader(props: SubHeaderPropsInterface): React.ReactElement {
     <div
       className={`flex flex-col px-6 lg:px-10 pb-4 dark:text-white ${classes}`}
     >
-      <span className="text-xl lg:text-xl font-bold mb-1">{title}</span>
-      <span
-        className={
-          props.smallText ? `text-xs font-light` : `text-sm font-light`
-        }
-      >
-        {description}
-      </span>
+      <span className="text-2xl lg:text-2xl font-bold mb-1">{title}</span>
+      <span className="font-light text-md">{description}</span>
       {children}
     </div>
   );

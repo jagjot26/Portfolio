@@ -56,9 +56,12 @@ export const projects: Project[] = [
     stack: [Stack.dart, Stack.flutter, Stack.firebase],
 
     screenshots: [
-      "https://doc-14-0g-docs.googleusercontent.com/docs/securesc/vafr7kf1kghali8hu38tlqh7s68kivma/3nstimrdi2up60hshga1ttikopg7rkla/1631748900000/06417074345059691237/06417074345059691237/1m2r7j747QokXA62-GT6HQAtzcDeGU-KY?authuser=0&nonce=iaovco2dhp3uo&user=06417074345059691237&hash=kc55is3f127skdobfdlj24thish7rhnf",
-      "https://doc-0k-0g-docs.googleusercontent.com/docs/securesc/vafr7kf1kghali8hu38tlqh7s68kivma/pgms9lara7r8jbnen2kn1bbbbuehi1ai/1631748975000/06417074345059691237/06417074345059691237/1wWWsNbPE-L7RfHaIliCnnV0g5cY3P_uB?authuser=0",
-      "https://doc-04-0g-docs.googleusercontent.com/docs/securesc/vafr7kf1kghali8hu38tlqh7s68kivma/iju6ak319k2te6q9gmgbpo1l4om6h5ca/1631749050000/06417074345059691237/06417074345059691237/1UL8Sx-zAOzZGjIqX8BLD8wW4cHJSFfel?authuser=0",
+      "https://user-images.githubusercontent.com/51400182/133540701-47120af1-f854-4093-9060-5c6921b0382e.jpg",
+      "https://user-images.githubusercontent.com/51400182/133541060-8706cf0e-1df6-41ad-bb6e-38cce9cdf169.jpg",
+      "https://user-images.githubusercontent.com/51400182/133541023-3bde749b-3f9a-45d8-bf25-ab54092e906b.jpg",
+      "https://user-images.githubusercontent.com/51400182/133540791-c3a64205-f274-4af8-ba56-c4b30b03e1c9.jpg",
+      "https://user-images.githubusercontent.com/51400182/133540935-682ece02-f7b7-457e-85b0-78576b8c8a90.jpg",
+      "https://user-images.githubusercontent.com/51400182/133540986-b45e388d-5c1a-4593-851e-c1fd403db620.jpg",
     ],
     deployment: {
       android:
@@ -96,7 +99,7 @@ export const projects: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fvelvet%2Fbanner.png?alt=media&token=1c8fef8b-397e-434e-8ae8-48b6a5bc2ed2",
     website: "https://boom.london",
     description:
-      "An app that allows shopowners and workers to work efficiently. ",
+      "Tasks is a simple tasks' list app that allows managers and the workers to do their jobs efficiently. Managers assign tasks to the workers on their phones. Workers can check tasks off the list once they have done the task. Changes will also be reflected on the manager's list of that worker's tasks.",
     repository: "https://github.com/Jagjot26/Tasks",
     stack: [Stack.dart, Stack.flutter, Stack.firebase],
     screenshots: [
@@ -116,7 +119,7 @@ export const projects: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fvelvet%2Fbanner.png?alt=media&token=1c8fef8b-397e-434e-8ae8-48b6a5bc2ed2",
 
     description:
-      "An app that helps people to check if they have Alzheimer's by playing some games.",
+      "IfAlz helps people to check if they have Alzheimer's by playing some games and answering some quizzes. Users can choose to either play the games individually or, take the full test which comprises of all the games one after another, and gives you some final scores based on your results.",
     repository: "https://github.com/Jagjot26/ifAlz",
     stack: [Stack.dart, Stack.flutter, Stack.firebase],
     screenshots: [

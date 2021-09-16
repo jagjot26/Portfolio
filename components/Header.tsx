@@ -11,13 +11,13 @@ function Header(props: HeaderProps): React.ReactElement {
   return (
     <div className="banner flex flex-col justify-center dark:text-white">
       <div className="ml-6 md:ml-14 lg:ml-28">
-        <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
+        <p className="text-3xl md:text-3xl lg:text-5xl font-bold select-none">
           Hello, I am Jagjot
         </p>
-        <p className="text-sm mt-1.5 font-light lg:text-lg">
+        <p className="text-md mt-1.5 font-light lg:text-2xl">
           Full Stack Web and Mobile App Developer
         </p>
-        <p className="text-xs mt-1.5 font-light lg:text-base">
+        <p className="text-sm mt-2 font-light lg:text-lg">
           Read more
           <HeaderText
             onclick={openAbout}

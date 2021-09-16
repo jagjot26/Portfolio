@@ -5,7 +5,6 @@
 * {
   scroll-behavior: smooth;
   transition: background-color 300ms ease;
-  scrollbar-width: none;
 }
 
 html,
@@ -15,22 +14,20 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-html,
-body,
-body > div:first-child,
-div#__next,
-div#__next > div {
-  min-height: 100vh;
-  overflow-y: scroll;
-  scrollbar-width: none;
-}
+// html,
+// body,
+// body > div:first-child,
+// div#__next,
+// div#__next > div {
+//   min-height: 100vh;
+//   overflow-y: scroll;
+// }
 
-html,
-div#__next {
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
+// html,
+// div#__next {
+//   &::-webkit-scrollbar {
+//   }
+// }
 
 a,
 a:hover,
@@ -57,9 +54,9 @@ a:active {
 }
 
 .banner {
-  min-height: 70vh;
+  min-height: 85vh;
 
   @screen lg {
-    min-height: 80vh;
+    min-height: 95vh;
   }
 }

@@ -15,7 +15,7 @@ export const Colors: Record<string, string> = {
   graphql: "#E535AB",
   node: "#68A063",
   django: "#fff",
-  firebase: "#F5DB53",
+  firebase: "#FF9900",
 
   // Tools, Libs
   babel: "#F5DB53",

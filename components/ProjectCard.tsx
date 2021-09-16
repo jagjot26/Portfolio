@@ -10,22 +10,23 @@ interface ProjectCardProps {
   title: string;
   banner: string;
   description: string;
+  onClick: VoidFunction;
 }
 
-function ProjectCard(props: ProjectCardProps) {
+function ProjectCard(props: ProjectCardProps): React.ReactElement {
   const { description, title, banner } = props;
-  const { theme } = useTheme();
+  const { resolvedTheme } = useTheme();
 
   return (
     <CardDiv
-      dark={theme === "dark" ? true : false}
+      onClick={props.onClick}
+      dark={resolvedTheme === "dark" ? true : false}
       className="shadow-md dark:text-white cursor-pointer rounded-md border-gray-400 dark:border-gray-700"
     >
       <BannerImage src={banner} alt="" />
       <div className="p-3">
         <TitleText>{title}</TitleText>
         <DescriptionText>
-          {" "}
           {description.length > 60
             ? `${description.substring(0, 60)}...`
             : description}
@@ -46,16 +47,16 @@ const BannerImage = styled.img`
   object-position: center;
   border-radius: 0.37rem 0.37rem 0 0;
   object-fit: cover;
-  height: 8rem;
+  height: 12rem;
   width: 100%;
 `;
 
 const TitleText = styled.p`
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1.19rem;
 `;
 
 const DescriptionText = styled.p`
   font-weight: 300;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 `;

@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "antd": "^4.16.13",
+    "babel-preset-next": "^1.4.0",
     "next": "11.1.2",
     "next-seo": "^4.26.0",
     "next-themes": "^0.0.15",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
+    "react-indiana-drag-scroll": "^2.0.1",
     "react-spring-bottom-sheet": "^3.4.0",
     "sass": "^1.41.0",
     "styled-components": "^5.3.1"
@@ -24,6 +26,7 @@
     "@types/react": "17.0.21",
     "@types/styled-components": "^5.1.14",
     "autoprefixer": "^10.3.4",
+    "babel-plugin-styled-components": "^1.13.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "postcss": "^8.3.6",

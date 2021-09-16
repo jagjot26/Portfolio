@@ -8,8 +8,8 @@ interface LayoutProps {
 function Layout(props: LayoutProps): React.ReactElement {
   const { children } = props;
   return (
-    <div className="flex flex-col dark:bg-dark min-h-screen w-full">
-      <div className="flex flex-col overflow-hidden">{children}</div>
+    <div className="flex flex-col dark:bg-dark w-full">
+      <div className="flex flex-col">{children}</div>
       <Footer />
     </div>
   );

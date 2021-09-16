@@ -4,7 +4,7 @@ import { IoSunnyOutline as SunIcon } from "react-icons/io5";
 import { useTheme } from "next-themes";
 
 function ThemeIconDiv() {
-  const { theme, setTheme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme();
 
   const setLightTheme = (): void => {
     setTheme("light");
@@ -14,16 +14,16 @@ function ThemeIconDiv() {
     setTheme("dark");
   };
   return (
-    <div className="cursor-pointer w-full p-5 md:p-10 md:pr-16 lg:pr-20 ">
-      {theme === "dark" && (
+    <div className="cursor-pointer w-full pt-5 md:pt-10 md:pr-20 lg:pr-24 ">
+      {resolvedTheme === "dark" && (
         <MoonIcon
-          className="hover:opacity-60 ml-auto text-2xl lg:text-3xl text-white"
+          className="hover:opacity-60 ml-auto text-3xl lg:text-4xl text-white"
           onClick={setLightTheme}
         />
       )}
-      {theme === "light" && (
+      {resolvedTheme === "light" && (
         <SunIcon
-          className="hover:opacity-60 ml-auto text-2xl lg:text-3xl"
+          className="hover:opacity-60 ml-auto text-3xl lg:text-4xl text-black"
           onClick={setDarkTheme}
         />
       )}
