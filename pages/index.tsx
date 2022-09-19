@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { NextPage } from "next";
+import Head from 'next/head'
 import dynamic from "next/dynamic";
 import ThemeIconDiv from "../components/ThemeIconDiv";
 import Header from "../components/Header";
@@ -24,6 +25,9 @@ const Home: NextPage = () => {
 
   return (
     <>
+       <Head>
+        <title>Jagjot Singh</title>
+      </Head>
       <Layout>
         <main>
           <ThemeIconDiv />
