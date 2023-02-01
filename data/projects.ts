@@ -48,7 +48,7 @@ export const projects: Project[] = [
     ],
 
     deployment: {
-      web: "https://faeshare.herokuapp.com",
+      web: "https://faeshare.in",
     },
   },
   {
